@@ -8,7 +8,7 @@ The purpose of this repository is to provide a personal data disclosure form tem
 **N.B.** _All_ modules (including UI) must include a copy of this form in their git repository, even if they don't store any data.  There's a checkbox at the top indicating that this module doesn't store any personal data.  This removes ambiguities around whether the module doesn't store personal data, or if the module developers simply haven't filled it out yet, etc.
 
 ## Revision Control
-The disclosure form is versioned, with the version indicated at the bottom of the form.  As adjustments are made to the template, this version shall be updated accordingly.  These changes will be submitted as pull requests (PRs) to be reviewed and approved by the code owners of this repository.  Major changes - indicating changes which are not backwards compatible, e.g. removing a field from the list) will result in a new "release" in git.
+The disclosure form is versioned, with the version indicated at the bottom of the form.  As adjustments are made to the template, this version shall be updated accordingly.  These changes will be submitted as pull requests (PRs) to be reviewed and approved by the code owners of this repository.  Major changes - indicating changes which are not backwards compatible (e.g. removing a field from the list) will result in a new "release" in git.
 
 ## Aggregation
 Since the specialized/"filled-in" forms will be distributed among each of the module repositories, their individual value is somewhat limited.  An aggregate picture of all or a collection of the modules is much more useful.  Tooling/scripts provided by this repository help with this aggregation.

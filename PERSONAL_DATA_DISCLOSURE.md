@@ -17,7 +17,7 @@ For the purposes of this form, "store" includes the following:
 - [ ] This module stores fields with free-form text (tags, notes, descriptions, etc.)
 - [ ] This module caches personal data
 ---
-- [ ] First name    
+- [ ] First name
 - [ ] Last name
 - [ ] Middle name
 - [ ] Pseudonym / Alias / Nickname / Username / User ID

@@ -51,7 +51,6 @@ The following laws and policies were considered when creating the list of person
   * https://www.newamerica.org/cybersecurity-initiative/digichina/blog/translation-cybersecurity-law-peoples-republic-china/
   * http://en.east-concord.com/zygd/Article/20203/ArticleContent_1690.html?utm_source=Mondaq&utm_medium=syndication&utm_campaign=LinkedIn-integration
 * [Personal Data Protection Bill, 2019 (India)](https://www.prsindia.org/billtrack/personal-data-protection-bill-2019)
-* [Data protection act 2018 (UK)](https://www.legislation.gov.uk/ukpga/2018/12/section/3/enacted)
 
 ---
 

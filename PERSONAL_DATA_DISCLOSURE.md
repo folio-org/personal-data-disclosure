@@ -44,7 +44,10 @@ For the purposes of this form, "store" includes the following:
 
 ## Privacy Laws, Regulations, and Policies
 The following laws and policies were considered when creating the list of personal data fields above.
-* [General Data Protection Regulation (GDPR)](https://gdpr.eu/)
+* [General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02016R0679-20160504)
+  * [What are identifiers and related factors? (ico.org.uk)](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/what-is-personal-data/what-are-identifiers-and-related-factors/)
+  * [What is the meaning of 'relates to'? (ico.org.uk)](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/what-is-personal-data/what-is-the-meaning-of-relates-to/)
+  * [Opinion 4/2007 on the concept of personal data (Article 29 working party)](https://ec.europa.eu/justice/article-29/documentation/opinion-recommendation/files/2007/wp136_en.pdf)
 * [California Consumer Privacy Act (CCPA)](https://oag.ca.gov/privacy/ccpa)
 * [U.S. Department of Labor: Guidance on the Protection of Personal Identifiable Information](https://www.dol.gov/general/ppii)
 * Cybersecurity Law of the People's Republic of China

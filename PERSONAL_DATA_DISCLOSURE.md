@@ -3,7 +3,11 @@
 ## Overview
 The purpose of this form is to disclose the types of personal data stored by each module.  This information enables those hosting FOLIO to better manage and comply with various privacy laws and restrictions, e.g. GDPR.
 
-It's important to note that personal data is not limited to that which can be used to identify a person on it's own (e.g. Social security number), but also data used in conjunction with other data to identify a person (e.g. date of birth + city + gender).
+GDPR defines: ‘personal data’ means any information relating to an identified or identifiable natural person.
+
+Personal data basically means any information about a living person, where that person either is identified or could be identified.
+
+It's important to note that personal data is not limited to that which can be used to identify a person on it's own (e.g. Social security number), but also data used in conjunction with other data to identify a person (e.g. date of birth + city + gender, or dynamic IP address + date + time), and any information about such a person (has loaned 5 items, 2 of which are overdue).
 
 For the purposes of this form, "store" includes the following:
 * Persisting to storage - Either internal (e.g. Postgres) or external (e.g. S3, etc.) to FOLIO

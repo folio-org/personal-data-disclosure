@@ -59,4 +59,4 @@ The following laws and policies were considered when creating the list of person
 
 ---
 
-v1.0
+v1.1

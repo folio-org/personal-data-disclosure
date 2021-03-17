@@ -43,7 +43,7 @@ For the purposes of this form, "store" includes the following:
 **NOTE** This is not intended to be a comprehensive list, but instead provide a starting point for module developers/maintainers to use.
 
 ## Privacy Laws, Regulations, and Policies
-The following laws and policies were considered when creating the list of personal data fields above.
+Numerous laws and policies were considered when creating the list of personal data fields above.  For additional information, please refer to the following:
 * [General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02016R0679-20160504)
   * [What are identifiers and related factors? (ico.org.uk)](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/what-is-personal-data/what-are-identifiers-and-related-factors/)
   * [What is the meaning of 'relates to'? (ico.org.uk)](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/what-is-personal-data/what-is-the-meaning-of-relates-to/)

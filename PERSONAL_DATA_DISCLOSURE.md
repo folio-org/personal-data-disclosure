@@ -1,7 +1,7 @@
 
 
 ## Overview
-The purpose of this form is to disclose the types of personal data stored by each module.  This information enables those hosting FOLIO to better manage and comply with various privacy laws and restrictions, e.g. GDPR.
+The purpose of this form is to disclose the types of personally identifiable information (PII) stored by each module.  This information enables those hosting FOLIO to better manage and comply with various privacy laws and restrictions, e.g. GDPR.
 
 It's important to note that personal data is not limited to that which can be used to identify a person on it's own (e.g. Social security number), but also data used in conjunction with other data to identify a person (e.g. date of birth + city + gender).
 
@@ -11,11 +11,13 @@ For the purposes of this form, "store" includes the following:
 * Logging
 * Sending to an external piece of infrastructure such as a queue (e.g. Kafka), search engine (e.g. Elasticsearch), distributed table, etc.
 
-## Personal Data Stored by This Module
+## Personal Data used by This Module
 - [ ] This module does not store any personal data.
 - [ ] This module provides [custom fields](https://github.com/folio-org/folio-custom-fields).
 - [ ] This module stores fields with free-form text (tags, notes, descriptions, etc.)
 - [ ] This module caches personal data
+- [ ] This module logs personal data (please indicate which log levels include PII)
+- [ ] This module transmits personal data (including queues, additional databases, etc.)
 ---
 - [ ] First name
 - [ ] Last name

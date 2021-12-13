@@ -16,7 +16,7 @@ For the purposes of this form, "store" includes the following:
 - [ ] This module provides [custom fields](https://github.com/folio-org/folio-custom-fields).
 - [ ] This module stores fields with free-form text (tags, notes, descriptions, etc.)
 - [ ] This module caches personal data
-- [ ] This module logs personal data (please indicate which log levels include PII)
+- [ ] This module logs personal data (indicate which log levels include PII)
 - [ ] This module transmits personal data (including queues, additional databases, etc.)
 ---
 - [ ] First name

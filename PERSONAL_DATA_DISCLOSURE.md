@@ -1,6 +1,5 @@
-
-
 ## Overview
+
 The purpose of this form is to disclose the types of personally identifiable information (PII) stored by each module.  This information enables those hosting FOLIO to better manage and comply with various privacy laws and restrictions, e.g. GDPR.
 
 It's important to note that personal data is not limited to that which can be used to identify a person on it's own (e.g. Social security number), but also data used in conjunction with other data to identify a person (e.g. date of birth + city + gender).
@@ -22,6 +21,16 @@ For the purposes of this form, "store" includes the following:
 
 ---
 
+### Sensitive 
+
+- [ ] Passport number / National identification numbers
+- [ ] Driver’s license number
+- [ ] Social security number
+- [ ] Financial account information
+
+
+### Sensitive if paired with another identifieer
+
 - [ ] First name
 - [ ] Last name
 - [ ] Gender
@@ -35,9 +44,6 @@ For the purposes of this form, "store" includes the following:
 - [ ] Pseudonym / Alias / Nickname
 - [ ] Username / User ID
 - [ ] Email address
-- [ ] Passport number / National identification numbers
-- [ ] Driver’s license number
-- [ ] Social security number
 - [ ] Financial information/ Fees or Fines
 - [ ] Ciruclation history
 - [ ] Web cookies

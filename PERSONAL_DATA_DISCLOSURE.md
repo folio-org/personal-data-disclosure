@@ -21,15 +21,18 @@ For the purposes of this form, "store" includes the following:
 
 ---
 
-### Sensitive 
+### Identifiable information
+
+
 
 - [ ] Passport number / National identification numbers
 - [ ] Driver’s license number
 - [ ] Social security number
 - [ ] Financial account information
 
+### Identifiable information if linked
 
-### Sensitive if paired with another identifieer
+Information can be combined with others to form a person’s identity.
 
 - [ ] First name
 - [ ] Last name
@@ -42,12 +45,13 @@ For the purposes of this form, "store" includes the following:
 - [ ] Geolocation data
 - [ ] Phone number(s)
 - [ ] Pseudonym / Alias / Nickname
-- [ ] Username / User ID
+- [ ] Username / User Identifier (UUID)
 - [ ] Email address
-- [ ] Financial information/ Fees or Fines
-- [ ] Ciruclation history
+- [ ] Financial information / Fees or Fines
+- [ ] Ciruclation transaction(s)
 - [ ] Web cookies
-- [ ] IP address
+- [ ] IP address / MAC address
+- [ ] Photographs of users (profile picture)
 
 <!--- - [ ] Other personal data - Please list as needed -->
 

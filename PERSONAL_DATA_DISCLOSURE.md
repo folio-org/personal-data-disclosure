@@ -2,7 +2,7 @@
 
 The purpose of this form is to disclose the types of personally identifiable information (PII) stored by each module.  This information enables those hosting FOLIO to better manage and comply with various privacy laws and restrictions, e.g. GDPR.
 
-It's important to note that personal data is not limited to that which can be used to identify a person on it's own (e.g. Social security number), but also data used in conjunction with other data to identify a person (e.g. date of birth + city + gender).
+It's important to note that personal data is not limited to that which can be used to identify a person on it's own (e.g. Social security number), but also data used in conjunction with other data to identify a person (e.g. date of birth + city + gender, or dynamic IP address + date + time), and any information about such a person (e.g. has loaned 5 items, 2 of which are overdue).
 
 For the purposes of this form, "store" includes the following:
 * Persisting to storage - Either internal (e.g. Postgres) or external (e.g. S3, etc.) to FOLIO
@@ -22,8 +22,6 @@ For the purposes of this form, "store" includes the following:
 ---
 
 ### Identifiable information
-
-
 
 - [ ] Passport number / National identification numbers
 - [ ] Driver’s license number
@@ -52,15 +50,17 @@ Information can be combined with others to form a person’s identity.
 - [ ] Web cookies
 - [ ] IP address / MAC address
 - [ ] Photographs of users (profile picture)
-
 <!--- - [ ] Other personal data - Please list as needed -->
 
 **NOTE** This is not intended to be a comprehensive list, but instead provide a starting point for module developers/maintainers to use.
 
 ## Privacy Laws, Regulations, and Policies
 
-The following laws and policies were considered when creating the list of personal data fields above.
-* [General Data Protection Regulation (GDPR)](https://gdpr.eu/)
+Numerous laws and policies were considered when creating the list of personal data fields above.  For additional information, please refer to the following:
+* [General Data Protection Regulation (GDPR)](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:02016R0679-20160504)
+  * [What are identifiers and related factors? (ico.org.uk)](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/what-is-personal-data/what-are-identifiers-and-related-factors/)
+  * [What is the meaning of 'relates to'? (ico.org.uk)](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/what-is-personal-data/what-is-the-meaning-of-relates-to/)
+  * [Opinion 4/2007 on the concept of personal data (Article 29 working party)](https://ec.europa.eu/justice/article-29/documentation/opinion-recommendation/files/2007/wp136_en.pdf)
 * [California Consumer Privacy Act (CCPA)](https://oag.ca.gov/privacy/ccpa)
 * [U.S. Department of Labor: Guidance on the Protection of Personal Identifiable Information](https://www.dol.gov/general/ppii)
 * Cybersecurity Law of the People's Republic of China

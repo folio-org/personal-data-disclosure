@@ -29,17 +29,10 @@ def include_exclude_options(fn):
             metavar="RE",
         ),
         click.option(
-            "--archived",
+            "--archived/--no-archived",
             "archived",
             help="include archived repositories",
-            flag_value=False,
-        ),
-        click.option(
-            "--no-archived",
-            "archived",
-            help="don't Include archived repositories (default)",
-            flag_value=False,
-            default=True,
+            default=False,
             show_default=True,
         ),
     ):

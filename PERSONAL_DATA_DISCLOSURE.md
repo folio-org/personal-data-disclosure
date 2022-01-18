@@ -2,22 +2,22 @@
 
 The purpose of this form is to disclose the types of personally identifiable information (PII) stored by each module.  This information enables those hosting FOLIO to better manage and comply with various privacy laws and restrictions, e.g. GDPR.
 
-It's important to note that personal data is not limited to that which can be used to identify a person on it's own (e.g. Social security number), but also data used in conjunction with other data to identify a person (e.g. date of birth + city + gender, or dynamic IP address + date + time), and any information about such a person (e.g. has loaned 5 items, 2 of which are overdue).
+It's important to note that PII is not limited to that which can be used to identify a person on it's own (e.g. Social security number), but also data used in conjunction with other data to identify a person (e.g. date of birth + city + gender, or dynamic IP address + date + time), and any information about such a person (e.g. has loaned 5 items, 2 of which are overdue).
 
 For the purposes of this form, "store" includes the following:
 * Persisting to storage - Either internal (e.g. Postgres) or external (e.g. S3, etc.) to FOLIO
 * Caching - In-memory, etc.
 * Logging
-* Sending to an external piece of infrastructure such as a queue (e.g. Kafka), search engine (e.g. Elasticsearch), distributed table, etc.
+* Sending to an external piece of infrastructure such as a queue (e.g. Kafka), database (e.g. Elasticsearch, Library Data Platform), distributed table, etc.
 
-## Personal Data used by This Module
+## Personally Identifiable Information used by This Module
 
-- [ ] This module does not store any personal data.
+- [ ] This module does not store any PII.
 - [ ] This module provides [custom fields](https://github.com/folio-org/folio-custom-fields).
 - [ ] This module stores fields with free-form text (tags, notes, descriptions, etc.)
-- [ ] This module caches personal data
-- [ ] This module logs personal data (indicate which log levels include PII)
-- [ ] This module transmits personal data (including queues, additional databases, etc.)
+- [ ] This module caches PII
+- [ ] This module logs PII (indicate which log levels include PII)
+- [ ] This module transmits PII (including queues, additional databases, etc.)
 
 ---
 
@@ -50,7 +50,7 @@ Information can be combined with others to form a person’s identity.
 - [ ] Web cookies
 - [ ] IP address / MAC address
 - [ ] Photographs of users (profile picture)
-<!--- - [ ] Other personal data - Please list as needed -->
+<!--- - [ ] Other PII - Please list as needed -->
 
 **NOTE** This is not intended to be a comprehensive list, but instead provide a starting point for module developers/maintainers to use.
 

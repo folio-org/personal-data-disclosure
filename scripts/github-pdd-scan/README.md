@@ -5,11 +5,12 @@ Scan the folio-org GitHub organization for active repos containing PERSONAL_DATA
 ## Installation
 
     PIPENV_VENV_IN_PROJECT=1 pipenv install
-    pipenv shell
 
 ## Usage
 
-Usage instructions go here.
+Be sure to `pipenv shell` to get into the program's environment prior to running commands.
+
+    github-ppd-scan --github-token GITHUB_PERSONAL_ACCESS_TOKEN [-v|-d] inventory-ppd [--include REGEX] [--exclude REGEX] [--archived]
 
 ## Development
 
@@ -25,7 +26,7 @@ Or without `pipenv`, something like this:
     python -m venv venv
     source venv/bin/activate
 
-Now install the dependencies and test dependencies:
+Now install the dependencies:
 
-    pip install -e '.[test]'
+    pip install -e '.[dev]'
 

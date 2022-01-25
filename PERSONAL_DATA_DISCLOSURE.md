@@ -10,7 +10,7 @@ For the purposes of this form, "store" includes the following:
 * Logging
 * Sending to an external piece of infrastructure such as a queue (e.g. Kafka), database (e.g. Elasticsearch, Library Data Platform), distributed table, etc.
 
-## Personally Identifiable Information processed by This Module
+## Personally Identifiable Information processed by this Module
 
 - [ ] This module does not store any PII.
 - [ ] This module does not process any PII.

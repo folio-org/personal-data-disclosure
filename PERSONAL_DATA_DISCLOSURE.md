@@ -10,13 +10,18 @@ For the purposes of this form, "store" includes the following:
 * Logging
 * Sending to an external piece of infrastructure such as a queue (e.g. Kafka), database (e.g. Elasticsearch, Library Data Platform), distributed table, etc.
 
-## Personally Identifiable Information used by This Module
+## Personally Identifiable Information processed by This Module
 
 - [ ] This module does not store any PII.
+- [ ] This module does not process any PII.
 - [ ] This module provides [custom fields](https://github.com/folio-org/folio-custom-fields).
 - [ ] This module stores fields with free-form text (tags, notes, descriptions, etc.)
 - [ ] This module caches PII
-- [ ] This module logs PII (indicate which log levels include PII)
+- [ ] This module logs PII
+    - [ ] log level ERROR inlucdes PII
+    - [ ] log level WARNING includes PII
+    - [ ] log level INFO includes PII
+    - [ ] log level DEBUG includes PII
 - [ ] This module transmits PII (including queues, additional databases, etc.)
 
 ---
@@ -46,7 +51,7 @@ Information can be combined with others to form a person’s identity.
 - [ ] Username / User Identifier (UUID)
 - [ ] Email address
 - [ ] Financial information / Fees or Fines
-- [ ] Ciruclation transaction(s)
+- [ ] Circulation transaction(s)
 - [ ] Web cookies
 - [ ] IP address / MAC address
 - [ ] Photographs of users (profile picture)

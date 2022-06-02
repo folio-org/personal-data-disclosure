@@ -1,3 +1,6 @@
+_Last Updated: (date form was last changed)_
+_Last Reviewed: (date form was last reviewed for accuracy)_
+
 ## Overview
 
 The purpose of this form is to disclose the types of personal data[^1] (PD) stored by each module.  This information enables those hosting FOLIO to better manage and comply with various privacy laws and restrictions, e.g. GDPR.
@@ -58,7 +61,7 @@ Information can be combined with others to form a person’s identity.
 - [ ] Photographs of users (profile picture)
 <!--- - [ ] Other PD - Please list as needed -->
 
-**NOTE** This is not intended to be a comprehensive list, but instead provide a starting point for module developers/maintainers to use.
+**NOTE** This is not intended to be a comprehensive list, but instead provides a starting point for module developers/maintainers to use. If needed, append additional lines and check those accordingly.
 
 ## Privacy Laws, Regulations, and Policies
 

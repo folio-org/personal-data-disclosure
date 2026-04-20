@@ -5,7 +5,7 @@ _Last Reviewed: (date form was last reviewed for accuracy)_
 
 The purpose of this form is to disclose the types of personal data[^1] (PD) stored by each module.  This information enables those hosting FOLIO to better manage and comply with various privacy laws and restrictions, e.g. GDPR.
 
-It's important to note that PD is not limited to that which can be used to identify a person on it's own (e.g. Social security number), but also data used in conjunction with other data to identify a person (e.g. date of birth + city + gender, or dynamic IP address + date + time), and any information about such a person (e.g. has loaned 5 items, 2 of which are overdue).
+It's important to note that PD is not limited to that which can be used to identify a person on its own (e.g. Social security number), but also data used in conjunction with other data to identify a person (e.g. date of birth + city + gender, or dynamic IP address + date + time), and any information about such a person (e.g. has loaned 5 items, 2 of which are overdue).
 
 For the purposes of this form, "store" includes the following:
 

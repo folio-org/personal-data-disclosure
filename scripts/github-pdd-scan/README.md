@@ -10,7 +10,7 @@ Scan the folio-org GitHub organization for active repos containing PERSONAL_DATA
 
 Be sure to `pipenv shell` to get into the program's environment prior to running commands.
 
-    github-ppd-scan --github-token GITHUB_PERSONAL_ACCESS_TOKEN [-v|-d] inventory-ppd [--include REGEX] [--exclude REGEX] [--archived]
+    github-pdd-scan --github-token GITHUB_PERSONAL_ACCESS_TOKEN [-v|-d] inventory-pdd [--include REGEX] [--exclude REGEX] [--archived]
 
 ## Development
 
